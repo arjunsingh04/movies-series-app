@@ -1,5 +1,6 @@
 import { SEARCH_MOVIE, FETCH_MOVIES } from '../actions/types';
 
+console.log("Search reducer")
 const initialState = {
    text: '',
    movies: [],
