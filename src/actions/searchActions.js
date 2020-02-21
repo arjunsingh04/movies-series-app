@@ -17,5 +17,5 @@ export const fetchMovies = text => dispatch => {
             payload: response.data
          })
       })
-      .catch(err => console.log)
+      .catch(err => console.log(err))
 };
